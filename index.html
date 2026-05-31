@@ -1,4 +1,4 @@
-<DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -31,10 +31,17 @@
       </div>
       
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+<!--         <a href="#" id="search"><i data-feather="search"></i></a>
+ --><!--         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+ -->        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+      
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form end -->
     </nav>
     <!-- navbar selesai -->
     
@@ -68,8 +75,8 @@
     
     <!-- Menu -->
     <section id="menu" class="menu">
-     <h2><span>Menu</span> Kami</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fuga eligendi atque.</p>
+     <h2><span>Produk</span> Kami</h2>
+     <p>Berikut adalah contoh-contoh design buatan kami yang di buat dengan segenap hati dan usaha.</p>
      <div class="row">
        <div class="menu-card">
          <img src="rajaa kopiii 3.png" alt="Raja Kopi" class="menu-card-img">
@@ -77,17 +84,17 @@
          <p class="menu-card-price">IDR 20K</p>
        </div>
        <div class="menu-card">
-         <img src="rajaa kopiii 3.png" alt="Raja Kopi" class="menu-card-img">
+         <img src="tokokopi.png" alt="Coffee Store" class="menu-card-img">
          <h3 class="menu-card-title">~Design Kopi~</h3>
          <p class="menu-card-price">IDR 20K</p>
        </div>
        <div class="menu-card">
-         <img src="rajaa kopiii 3.png" alt="Raja Kopi" class="menu-card-img">
+         <img src="repair.png" alt="Repair bos" class="menu-card-img">
          <h3 class="menu-card-title">~Design Kopi~</h3>
          <p class="menu-card-price">IDR 20K</p>
        </div>
        <div class="menu-card">
-         <img src="rajaa kopiii 3.png" alt="Raja Kopi" class="menu-card-img">
+         <img src="rajakayu.png" alt="Raja Kayu" class="menu-card-img">
          <h3 class="menu-card-title">~Design Kopi~</h3>
          <p class="menu-card-price">IDR 20K</p>
        </div>
@@ -96,44 +103,47 @@
     <!-- Menu selesai -->
     
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-     <h2><span>Kontak</span> Kami</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quod.</p>
-    
-    <div class="row">
-      <img src="RAJA KAYU 4.png" alt="Design Perkayuan">
-    
-    <form action="">
-      <div class="input-grup">
-        <i data-feather="user"></i>
-        <input type="text" placeholder="Nama">
+<section id="contact" class="contact">
+  <h2><span>Kontak</span> Kami</h2>
+  <p>Tuliskan pesanan anda di pada bagian di bawah ini, pastikan menyertakan nama, ukuran yang di inginkan, dan detail lebih lanjut dari design yang anda inginkan</p>
+
+  <div class="contact-container">
+
+    <form id="wa-form" class="contact-form">
+
+      <div class="input-group">
+        <input type="text" id="nama" placeholder="Nama">
       </div>
-      <div class="input-grup">
-        <i data-feather="mail"></i>
-        <input type="text" placeholder="Email">
+
+      <div class="input-group">
+        <input type="text" id="ukuran" placeholder="Ukuran">
       </div>
-      <div class="input-grup">
-        <i data-feather="phone"></i>
-        <input type="text" placeholder="No HP">
+
+      <div class="input-group">
+        <input type="text" id="detail" placeholder="Detail Desain">
       </div>
-      <button type="submit" class="btn">Kirim Pesan</button>
+
+      <button type="submit" class="contact-btn">
+        Kirim Pesan
+      </button>
+
     </form>
-    </div>
-    </section>
-    <!-- Contact Section Selesai -->
+
+  </div>
+</section>    <!-- Contact Section Selesai -->
     
     <!-- Footer -->
     <footer>
       <div class="social">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
-      </div>
+        <a href="https://www.instagram.com/difa_designn?igsh=MWYxcGM4bnc3a3Q2ZQ=="><i data-feather="instagram"></i></a>
+<!--         <a href="#"><i data-feather="twitter"></i></a> -->
+<!--         <a href="#"><i data-feather="facebook"></i></a>
+ -->      </div>
       
       <div class="link">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
+        <a href="#menu">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       
